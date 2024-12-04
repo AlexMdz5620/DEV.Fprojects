@@ -1,0 +1,15 @@
+.height{
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+.container-custom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en es">
+
+<head>
+    <title>Enciclopedia de Items de League of Legends</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./css/img/logo/LOL_Logo.webp">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" async></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="https://www.leagueoflegends.com/es-mx/" class="logo" target="_blank">
+                <img src="./css/img/logo/logo-lol.jpg" alt="Logo LoL">
+            </a>
+            <div class="form-agregar-item-btn">
+                    <span>Agregar Item Nuevo</span>
+            </div>
+            <p>Si no conoces los Itemos o su Información puedes entrar <a
+                    href="https://vandal.elespanol.com/guias/guia-league-of-legends-trucos-consejos-y-secretos/objetos"
+                    target="_blank">aquí</a> para conocerlos</p>
+            <form class="form" id="form">
+                <div class="form-grup">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="icon-search">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                    <input type="text" placeholder="Buscar Items" name="buscador" class="buscador">
+                </div>
+            </form>
+        </nav>
+    </header>
+
+    <section class="form-agregar-item">
+        <form class="formulario-item" id="new-tem-form">
+            <h3>Añadir nuevos Items</h3>
+            <label for="image">
+                <h4>Imagen del Item</h4>
+                <input type="file" accept="image/*" id="image" name="image" required>
+            </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre del Item" required>
+            <input type="text" id="objeto" name="objeto" placeholder="Tipo de Objeto" required>
+            <input type="text" id="descrObjeto" name="descrObjeto" placeholder="Descripcion del Tipo de Objeto" required>
+            <input type="text" id="coste" name="coste" placeholder="Coste del Item" required>
+            <input type="text" id="estadistica" name="estadistica" placeholder="Estadisticas del Item" required>
+            <p>Si no tiene Pasiva indicar: "No tiene" en Pasiva 1</p>
+            <input type="text" id="pasiva1" name="pasiva1" placeholder="Pasiva 1" required>
+            <input type="text" id="pasiva2" name="pasiva2" placeholder="Pasiva 2">
+            <input type="text" id="pasiva3" name="pasiva3" placeholder="Pasiva 3">
+            <button type="submit" class="form-agregar-item-btn" id="add-item">Agregar Item</button>
+        </form>
+    </section>
+
+    <main class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items" id="contenedor-items">
+
+            <!-- <div class="item">
+                <img src="" alt="" class="img-item">
+                <span class="titulo-item"></span>
+                <button class="boton-item">Ver Información</button>
+                <div class="descripcion">
+                        <span class="objeto-item"></span>
+                        <p class="info-item"></p>
+                        <p class="coste-item"></p>
+                        <p class="estadisticas-item"></p>
+                        <p class="pasiva-item">Pasiva:</p>
+                        <p class="pasiva-item-1"></p>
+                        <p class="pasiva-item-2"></p>
+                        <p class="pasiva-item-3"></p>
+                </div>
+            </div> -->
+
+        </div>
+
+        <!-- Informacion de Items -->
+        <div class="info" id="info">
+            <div class="informa-items">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Enciclopedia de Items de League of Legends
+    </footer>
+</body>
+
+</html>
