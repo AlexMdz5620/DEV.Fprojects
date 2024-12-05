@@ -52,7 +52,11 @@ This repository contains projects developed during the **Master in Coding** boot
 
 ---
 
-1. [Pinterest Clone](https://pinterest-clone-66el.onrender.com)
-1. [MovieR4 (Movie Reviwe)](https://movier4.onrender.com)
-1. [LoL Encyclopedia Items](https://lol-encyclopedia-0g07.onrender.com)
-1. [Pokedex](https://pokedex-1ikj.onrender.com)
+1. <a href='https://pinterest-clone-66el.onrender.com' target=_blank>Pinterest Clone</a>
+1. <a href='https://atm-simulator-0br6.onrender.com' target=_blank>ATM Clone</a>
+1. <a href='https://lol-encyclopedia-0g07.onrender.com' target=_blank>LoL Encyclopedia Items</a>
+1. <a href='https://pinterest-clone-66el.onrender.com' target=_blank>Pokedex</a>
+1. <a href='https://movier4.onrender.com' target=_blank>MovieR4 (Movie Reviwe)</a>
+1. <a href='https://github.com/AlexMdz5620/DEV.Fprojects/tree/main/05.beDonRufino' target=_blank>Backend Don Rufino</a>
+1. <a href='https://github.com/AlexMdz5620/DEV.Fprojects/tree/main/06.beCinema' target=_blank>Backend Cinema</a>
+
